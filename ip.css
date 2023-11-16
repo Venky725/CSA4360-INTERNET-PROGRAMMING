@@ -1,0 +1,62 @@
+.html {
+  font-size: 62.5%;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  height: 100vh;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  text-align: center;
+  color: orange;
+}
+p {
+  width: 500px;
+}
+.section-header {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.sub-header {
+  display: flex;
+  gap: 1.6rem;
+}
+.main-link {
+  text-decoration: none;
+  color: black;
+}
+img {
+  width: 300px;
+  height: 200px;
+  border-radius: 0.9rem;
+  -webkit-border-radius: 0.9rem;
+  -moz-border-radius: 0.9rem;
+  -ms-border-radius: 0.9rem;
+  -o-border-radius: 0.9rem;
+}
+
+.section-link {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(253, 199, 134);
+  padding: 8px;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
+.section-link:hover {
+  color: black;
+  background-color: orangered;
+}
+.sec-div {
+  display: flex;
+  gap: 2.4rem;
+}

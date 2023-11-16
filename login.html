@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color: #dfd9defd;
+      }
+
+      .container h2 {
+        text-align: center;
+      }
+
+      .container input[type="text"],
+      .container input[type="password"] {
+        width: 100%;
+        background-color: yellow;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgb(0, 110, 255);
+        box-sizing: border-box;
+      }
+
+      .container button {
+        background-color: #fca504;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .container button:hover {
+        opacity: 0.8;
+      }
+
+      .container .error {
+        color: red;
+        text-align: center;
+      }
+      .ven {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Login</h2>
+      <form action="/login" method="POST"></form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <button type="submit" onclick="validateLogin()"><a href="sales.html" class="ven">Login</a></button>
+      </form>
+      <a href="Internet_programming.html" text-decoration='none'>Back</a>
+      <div class="error">
+        <!-- This is where you can display any login error messages -->
+      </div>
+    </div>
+    
+  </body>
+</html>
